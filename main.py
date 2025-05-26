@@ -5,7 +5,7 @@ function OnEvent(event, arg)
 
     if (event == "MOUSE_BUTTON_PRESSED" and arg == 1) then
         is_firing = true
-        if IsKeyLockOn("capslock") then
+        if IsKeyLockOn("Your desired activation key") then
             repeat
                 MoveMouseRelative(-6, 6)
                 Sleep(10)
